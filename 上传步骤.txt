@@ -1,0 +1,35 @@
+========================================
+PixelBead AI Studio - GitHub 上传步骤
+========================================
+
+请按顺序执行以下命令（复制粘贴到终端）：
+
+1. 配置 Git 用户信息：
+   git config --global user.email "zoraiu@github.com"
+   git config --global user.name "zoraiu"
+
+2. 在 GitHub 创建仓库：
+   - 访问：https://github.com/new
+   - 仓库名：pixelbead-ai-studio
+   - 选择：Public（公开）
+   - 不要勾选任何初始化选项
+   - 点击 Create repository
+
+3. 初始化并上传（在项目目录执行）：
+   git add -A
+   git commit -m "Initial commit - PixelBead AI Studio"
+   git push -u origin main
+
+4. 部署到 Vercel：
+   - 访问：https://vercel.com
+   - 用 GitHub 账号登录
+   - 点击 "Add New Project"
+   - 导入仓库：zoraiu/pixelbead-ai-studio
+   - 添加环境变量：
+     Name: VITE_GEMINI_API_KEY
+     Value: 你的 Gemini API Key
+   - 点击 Deploy
+
+========================================
+仓库地址：https://github.com/zoraiu/pixelbead-ai-studio
+========================================
