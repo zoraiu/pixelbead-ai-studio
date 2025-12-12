@@ -1,0 +1,7 @@
+{
+  "name": "PixelBead AI Studio",
+  "description": "A viral-ready Perler bead design tool. Features AI-powered pattern generation, image-to-bead conversion, and an interactive editor with real-time shopping lists.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
